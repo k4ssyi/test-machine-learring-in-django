@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     # 以下追記
     'users',
     'app',
-    'rest_framework'
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
