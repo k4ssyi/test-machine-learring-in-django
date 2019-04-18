@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+scikit-learn = "*"
+django = "*"
+djangorestframework = "*"
+pandas = "*"
+numpy = "*"
+pep8 = "*"
+flake8 = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.7"
