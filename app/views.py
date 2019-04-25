@@ -10,7 +10,7 @@ from .models import Iris
 from .serializer import IrisSerializer
 from django.conf import settings
 
-PKL_PATH = f'{settings.BASE_DIR}/static/clf/irls.pkl'
+PKL_PATH = f'{settings.BASE_DIR}/static/clf/iris.pkl'
 
 
 class IrisViewSet(viewsets.ModelViewSet):
